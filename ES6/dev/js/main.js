@@ -1,3 +1,7 @@
-const myName = "Sinner";
+var myName = "Sinner";
 
-console.log(`Hi, ${myName}`);
+var greetings = (name) => {
+  console.log(`Hellor there ${name}`);
+}
+
+greetings(myName);

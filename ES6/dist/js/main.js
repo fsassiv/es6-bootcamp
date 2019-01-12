@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./projectName/dev/js/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./ES6/dev/js/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./projectName/dev/js/main.js":
-/*!************************************!*\
-  !*** ./projectName/dev/js/main.js ***!
-  \************************************/
+/***/ "./ES6/dev/js/main.js":
+/*!****************************!*\
+  !*** ./ES6/dev/js/main.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const myName = \"Sinner\";\r\n\r\nconsole.log(`Hi, ${myName}`);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wcm9qZWN0TmFtZS9kZXYvanMvbWFpbi5qcz83OGI4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBLG1CQUFtQixPQUFPIiwiZmlsZSI6Ii4vcHJvamVjdE5hbWUvZGV2L2pzL21haW4uanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBteU5hbWUgPSBcIlNpbm5lclwiO1xyXG5cclxuY29uc29sZS5sb2coYEhpLCAke215TmFtZX1gKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./projectName/dev/js/main.js\n");
+eval("var myName = \"Sinner\";\r\n\r\nvar greetings = (name) => {\r\n  console.log(`Hellor there ${name}`);\r\n}\r\n\r\ngreetings(myName);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9FUzYvZGV2L2pzL21haW4uanM/NDExOSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQTtBQUNBLDhCQUE4QixLQUFLO0FBQ25DOztBQUVBIiwiZmlsZSI6Ii4vRVM2L2Rldi9qcy9tYWluLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIG15TmFtZSA9IFwiU2lubmVyXCI7XHJcblxyXG52YXIgZ3JlZXRpbmdzID0gKG5hbWUpID0+IHtcclxuICBjb25zb2xlLmxvZyhgSGVsbG9yIHRoZXJlICR7bmFtZX1gKTtcclxufVxyXG5cclxuZ3JlZXRpbmdzKG15TmFtZSk7Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./ES6/dev/js/main.js\n");
 
 /***/ })
 
